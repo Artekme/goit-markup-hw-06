@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en, ru">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -21,8 +21,9 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header class="header page-header">
+    <header class="header">
       <div class="header-container container">
+        
         <nav class="navigation-items">
           <a class="logo link" href="./index.html"> Web <span class="studio-part">Studio</span></a>
           <ul class="header-menu-list list menu">
@@ -31,16 +32,19 @@
             <li><a class="header-menu-link link" href="">Contacts</a></li>
           </ul>
         </nav>
-        <address class="contacts-items">
+        <address class=" menu">
           <ul class="header-contacts list">
             <li
-              ><a class="contacts linky" href="mailto:info@devstudio.com">info@devstudio.com</a></li
+              ><a class="contacts link" href="mailto:info@devstudio.com">info@devstudio.com</a></li
             >
-            <li><a class="contacts linky" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+            <li><a class="contacts link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
           </ul>
         </address>
-
-        <button class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
+        <button
+          class="menu-toggle js-open-menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
           <svg
             width="24"
             height="24"
@@ -514,7 +518,7 @@
         </form>
       </div>
     </div>
-    <div class="menu-container js-menu-container" id="mobile-menu">
+<div class="menu-container js-menu-container" id="mobile-menu">
       <button class="menu-toggle js-close-menu">
         <svg
           fill="currentColor"
