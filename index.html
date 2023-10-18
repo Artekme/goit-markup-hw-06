@@ -23,16 +23,15 @@
   <body>
     <header class="header">
       <div class="header-container container">
-        
         <nav class="navigation-items">
           <a class="logo link" href="./index.html"> Web <span class="studio-part">Studio</span></a>
-          <ul class="header-menu-list list menu">
+          <ul class="header-menu-list list">
             <li><a class="header-menu-link current link" href="./index.html">Studio</a> </li>
             <li><a class="header-menu-link link" href="./portfolio.html">Portfolio</a></li>
             <li><a class="header-menu-link link" href="">Contacts</a></li>
           </ul>
         </nav>
-        <address class=" menu">
+        <address class="contacts-items">
           <ul class="header-contacts list">
             <li
               ><a class="contacts link" href="mailto:info@devstudio.com">info@devstudio.com</a></li
@@ -40,25 +39,6 @@
             <li><a class="contacts link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
           </ul>
         </address>
-        <button
-          class="menu-toggle js-open-menu"
-          aria-expanded="false"
-          aria-controls="mobile-menu"
-        >
-          <svg
-            width="24"
-            height="24"
-            fill="currentColor"
-            viewBox="0 0 20 20"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              fill-rule="evenodd"
-              d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
-              clip-rule="evenodd"
-            ></path>
-          </svg>
-        </button>
       </div>
     </header>
 
@@ -429,7 +409,7 @@
         </div>
         <div class="subscribe-form">
           <p class="label-text">Subscribe</p>
-
+          
           <form class="feedback-form" name="feedback-form" autocomplete="off" novalidate>
             <label class="form-label">
               <input class="form-input" type="email" name="email" placeholder="E-mail" />
@@ -441,6 +421,7 @@
               </svg>
             </button>
           </form>
+
         </div>
       </div>
     </footer>
@@ -453,8 +434,10 @@
           </svg>
         </button>
         <p class="title-modal">Leave your contacts and we will call you back</p>
+        
 
         <form class="modal-form">
+
           <div class="inputs-modal">
             <label class="input-label" for="user-name"> Name </label>
             <div class="input-wrap">
@@ -488,7 +471,7 @@
           <div class="comment-input-label">
             <label class="input-label" for="user-comment"> Comment</label>
             <textarea
-              id="user-comment"
+             id="user-comment"
               class="input-place comment-area"
               name="user-comment"
               placeholder="Text input"
@@ -513,45 +496,13 @@
               <a class="privacy-link" href="">Privacy Policy</a>
             </label>
           </div>
+          
 
           <button class="submit" type="submit">Send</button>
         </form>
       </div>
     </div>
-<div class="menu-container js-menu-container" id="mobile-menu">
-      <button class="menu-toggle js-close-menu">
-        <svg
-          fill="currentColor"
-          viewBox="0 0 20 20"
-          xmlns="http://www.w3.org/2000/svg"
-          width="24"
-          height="24"
-        >
-          <path
-            fill-rule="evenodd"
-            d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-            clip-rule="evenodd"
-          ></path>
-        </svg>
-      </button>
 
-      <ul class="mobile-menu">
-        <li><a href="" class="link">About</a></li>
-        <li><a href="" class="link">Products</a></li>
-        <li><a href="" class="link">Contacts</a></li>
-        <li><a href="" class="link">Career</a></li>
-      </ul>
-    </div>
-
-    <script
-      defer
-      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
-      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
-      crossorigin="anonymous"
-    ></script>
-    <script defer src="./js/mobile-menu.js"></script>
     <script src="./js/modal.js"></script>
   </body>
 </html>
-
-<!-- yo -->
