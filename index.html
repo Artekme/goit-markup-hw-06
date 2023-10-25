@@ -18,27 +18,41 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/mobile.css" />
+    <!-- <link rel="stylesheet" href="./css/tablet.css" />
+    <link rel="stylesheet" href="./css/styles.css" /> -->
   </head>
   <body>
+    <div class="page">
     <header class="header">
       <div class="header-container container">
         <nav class="navigation-items">
           <a class="logo link" href="./index.html"> Web <span class="studio-part">Studio</span></a>
-          <ul class="header-menu-list list">
+          <ul class="header-menu-list">
             <li><a class="header-menu-link current link" href="./index.html">Studio</a> </li>
             <li><a class="header-menu-link link" href="./portfolio.html">Portfolio</a></li>
             <li><a class="header-menu-link link" href="">Contacts</a></li>
           </ul>
+          <button
+          type="button"
+          class="header-btn menu-toggle js-open-menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          <svg class="header-burger" width="32" height="22">
+            <use href="./images/icons.svg#icon-heroicons" ></use>
+          </svg>
+        </button>
         </nav>
         <address class="contacts-items">
-          <ul class="header-contacts list">
+          <ul class="header-contacts">
             <li
               ><a class="contacts link" href="mailto:info@devstudio.com">info@devstudio.com</a></li
             >
             <li><a class="contacts link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
           </ul>
         </address>
+        
       </div>
     </header>
 
@@ -46,8 +60,8 @@
       <!-- Hero section -->
       <section class="hero-section-container">
         <div class="container">
-          <h1 class="tagline">Effective Solutions for Your Business</h1>
-          <button class="order-button" type="button" data-modal-open>Order Service</button>
+                     <h1 class="tagline">Effective Solutions for Your Business</h1>
+          <button class="order-button" type="button" data-modal-open>Order Service</button> 
         </div>
       </section>
 
@@ -55,7 +69,7 @@
       <section class="benefits-section">
         <div class="container">
           <h2 class="hidden-title">Our benefits</h2>
-          <ul class="benefits-list list">
+          <ul class="benefits-list">
             <li class="benefit-card">
               <div class="benefit-icon">
                 <svg class="" width="64" height="64">
@@ -111,7 +125,7 @@
       <section class="wawd-section">
         <div class="container">
           <h2 class="section-title">What are we doing</h2>
-          <ul class="wawd-list list">
+          <ul class="wawd-list">
             <li class="wawd-item">
               <img
                 src="./images/img-1.jpg"
@@ -135,12 +149,12 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> 
       <!-- Our team section -->
       <section class="about-team-section">
         <div class="container">
           <h2 class="section-title">Our Team</h2>
-          <ul class="team-list list">
+          <ul class="team-list">
             <li class="employee-card">
               <img
                 class="employee-img"
@@ -311,12 +325,12 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> 
       <!-- Customers section -->
-      <section class="customers-section">
+       <section class="customers-section">
         <div class="container">
           <h2 class="section-title">Customers</h2>
-          <ul class="customers-list list">
+          <ul class="customers-list">
             <li class="customer-item">
               <a href="" class="customer-link">
                 <svg class="icon-client" width="104" height="56">
@@ -361,9 +375,9 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> 
     </main>
-    <footer class="footer">
+     <footer class="footer">
       <div class="container">
         <div class="call-to-action-container">
           <a class="logo link" href="./index.html">
@@ -424,9 +438,9 @@
 
         </div>
       </div>
-    </footer>
+    </footer> 
 
-    <div class="backdrop is-hidden" data-modal>
+    <!-- <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button class="modal-close-button" type="button" data-modal-close>
           <svg class="modal-icon" width="8" height="8">
@@ -501,8 +515,9 @@
           <button class="submit" type="submit">Send</button>
         </form>
       </div>
-    </div>
-
+    </div> -->
+</div>
     <script src="./js/modal.js"></script>
+    
   </body>
 </html>
