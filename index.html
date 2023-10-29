@@ -18,9 +18,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="./css/mobile.css" />
-    <!-- <link rel="stylesheet" href="./css/tablet.css" />
-    <link rel="stylesheet" href="./css/styles.css" /> -->
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <div class="page">
@@ -131,21 +129,24 @@
             <ul class="wawd-list">
               <li class="wawd-item">
                 <img
-                  src="./images/img-1.jpg"
+                  srcset="./images/img-1-2x.jpg 2x"
+                  src="./images/img-1-1x.jpg"
                   alt="Graph of site visit statistics on the monitor"
                   width="360"
                 />
               </li>
               <li class="wawd-item">
                 <img
-                  src="./images/img-2.jpg"
+                  srcset="./images/img-2-2x.jpg 2x"
+                  src="./images/img-2-1x.jpg"
                   alt="Phone and several screenshots in the air above it"
                   width="360"
                 />
               </li>
               <li class="wawd-item">
                 <img
-                  src="./images/img-3.jpg"
+                  srcset="./images/img-3-2x.jpg 2x"
+                  src="./images/img-3-1x.jpg"
                   alt="Phone in the hand of a man at his desk"
                   width="360"
                 />
@@ -161,7 +162,8 @@
               <li class="employee-card">
                 <img
                   class="employee-img"
-                  src="./images/img-4.jpg"
+                  srcset="./images/img-4-1x.jpg 1x, ./images/img-4-2x.jpg 2x"
+                  src="./images/img-4-1x.jpg"
                   alt="Smiling middle-aged man with a small beard"
                   width="264"
                 />
@@ -203,7 +205,8 @@
               <li class="employee-card">
                 <img
                   class="employee-img"
-                  src="./images/img-5.jpg"
+                  srcset="./images/img-5-2x.jpg 2x"
+                  src="./images/img-5-1x.jpg"
                   alt="Smiling young man with a small beard looks away"
                   width="264"
                 />
@@ -245,7 +248,8 @@
               <li class="employee-card">
                 <img
                   class="employee-img"
-                  src="./images/img-6.jpg"
+                  srcset="./images/img-6-2x.jpg 2x"
+                  src="./images/img-6-1x.jpg"
                   alt="Attractive young lady with long hair"
                   width="264"
                 />
@@ -287,7 +291,8 @@
               <li class="employee-card">
                 <img
                   class="employee-img"
-                  src="./images/img-7.jpg"
+                  srcset="./images/img-7-2x.jpg 2x"
+                  src="./images/img-7-1x.jpg"
                   alt="Smiling brubette young man with a small beard"
                   width="264"
                 />
@@ -532,40 +537,43 @@
         <div class="mobile-contacts-wrapper">
           <ul class="mobile-contacts">
             <li><a class="mobile-phone link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
-            <li><a class="mobile-mail link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li
+              ><a class="mobile-mail link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              ></li
+            >
           </ul>
           <ul class="mobile-contact-icons">
-                <li class="social-link-item">
-                  <a class="footer-contact-icon" href="">
-                    <svg class="social-link-icon" width="24" height="24">
-                      <use href="./images/icons.svg#icon-instagram"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="social-link-item">
-                  <a class="footer-contact-icon" href="">
-                    <svg class="social-link-icon" width="24" height="24">
-                      <use href="./images/icons.svg#icon-twitter"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="social-link-item">
-                  <a class="footer-contact-icon" href="">
-                    <svg class="social-link-icon" width="24" height="24">
-                      <use href="./images/icons.svg#icon-facebook"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="social-link-item">
-                  <a class="footer-contact-icon" href="">
-                    <svg class="social-link-icon" width="24" height="24">
-                      <use href="./images/icons.svg#icon-linkedin"></use>
-                    </svg>
-                  </a>
-                </li>
+            <li class="social-link-item">
+              <a class="footer-contact-icon" href="">
+                <svg class="social-link-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-link-item">
+              <a class="footer-contact-icon" href="">
+                <svg class="social-link-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-link-item">
+              <a class="footer-contact-icon" href="">
+                <svg class="social-link-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-link-item">
+              <a class="footer-contact-icon" href="">
+                <svg class="social-link-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
           </ul>
         </div>
-            
       </div>
     </div>
     <script src="./js/modal.js"></script>
